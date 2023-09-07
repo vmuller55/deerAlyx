@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/deerAlyx/static/css/main.66f63090.css",
+    "main.js": "/deerAlyx/static/js/main.2863291b.js",
+    "static/media/smoke.jpg": "/deerAlyx/static/media/smoke.907fa7731a7a128c58bf.jpg",
+    "index.html": "/deerAlyx/index.html",
+    "main.66f63090.css.map": "/deerAlyx/static/css/main.66f63090.css.map",
+    "main.2863291b.js.map": "/deerAlyx/static/js/main.2863291b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.66f63090.css",
+    "static/js/main.2863291b.js"
+  ]
+}
