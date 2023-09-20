@@ -14,3 +14,15 @@
 .presentationContainer p{
     height: 50%;
 }
+
+@media only screen and (max-width:850px){
+    .presentationContainer{
+        margin-top: 100px;
+    }
+    
+    .presentationContainer p{
+        height: 100%;
+        margin: 200px auto 0px;
+        overflow: scroll;
+    }
+}

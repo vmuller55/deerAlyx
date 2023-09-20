@@ -3,7 +3,7 @@ import './title.css'
 const Title = () => {
     return(
         <div className="titleContainer">
-            <h1>Deer-Alyx Onglerie formation</h1>
+            <h1>DEER-ALYX ONGLERIE <span className='neon'>FORMATION</span></h1>
         </div>
     )
 }

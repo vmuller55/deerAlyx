@@ -3,6 +3,7 @@ import Title from '../../components/title/Title'
 import Presentation from '../../components/presentation/Presentation'
 import React, { useState, useEffect, useRef } from 'react';
 import Work from '../../components/work/Work';
+import Forma from '../../components/formations/Forma';
 
 const Home = () => {
     const [currentElementIndex, setCurrentElementIndex] = useState(0);
@@ -84,7 +85,7 @@ const Home = () => {
                     <div className={`step ${currentElementIndex === 0 ? 'active' : ''}`} onClick={() => handleNav(page1)}><p className={`stepMessage ${isHover ? 'isHover' : 'off'}`}>Acceuil</p></div>
                     <div className={`step ${currentElementIndex === 1 ? 'active' : ''}`} onClick={() => handleNav(page2)}><p className={`stepMessage ${isHover ? 'isHover' : 'off'}`}>Qui je suis ?</p></div>
                     <div className={`step ${currentElementIndex === 2 ? 'active' : ''}`} onClick={() => handleNav(page3)}><p className={`stepMessage ${isHover ? 'isHover' : 'off'}`}>Mon travail</p></div>
-                    <div className={`step ${currentElementIndex === 3 ? 'active' : ''}`} onClick={() => handleNav(page4)}><p className={`stepMessage ${isHover ? 'isHover' : 'off'}`}>Acceuil</p></div>
+                    <div className={`step ${currentElementIndex === 3 ? 'active' : ''}`} onClick={() => handleNav(page4)}><p className={`stepMessage ${isHover ? 'isHover' : 'off'}`}>Mes formations</p></div>
                     <div className={`step ${currentElementIndex === 4 ? 'active' : ''}`} onClick={() => handleNav(page5)}><p className={`stepMessage ${isHover ? 'isHover' : 'off'}`}>Acceuil</p></div>
                 </div> 
             </div>
@@ -98,7 +99,7 @@ const Home = () => {
                 <Work/>
             </section>
             <section ref={page4} className={`title ${currentElementIndex === 3 ? 'active' : 'inactive'}`}>
-                <Presentation/>
+                <Forma/>
             </section>
             <section ref={page5} className={`title ${currentElementIndex === 4 ? 'active' : 'inactive'}`}>
                 <Presentation/>
