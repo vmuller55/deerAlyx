@@ -1,14 +1,22 @@
 {
   "files": {
-    "main.css": "/deerAlyx/static/css/main.a4132cf1.css",
-    "main.js": "/deerAlyx/static/js/main.1e7e6029.js",
+    "main.css": "/deerAlyx/static/css/main.18e6496b.css",
+    "main.js": "/deerAlyx/static/js/main.d8273ed2.js",
     "static/media/smoke.jpg": "/deerAlyx/static/media/smoke.907fa7731a7a128c58bf.jpg",
+    "static/media/ongle3.jpg": "/deerAlyx/static/media/ongle3.c677b4e41d61bab6318c.jpg",
+    "static/media/ongle4.jpg": "/deerAlyx/static/media/ongle4.686d343103258ff45c7d.jpg",
+    "static/media/ongle5.jpg": "/deerAlyx/static/media/ongle5.fb82ba5baf7d9290cfa3.jpg",
+    "static/media/ongle1.jpg": "/deerAlyx/static/media/ongle1.61ac515a364b5d2e4928.jpg",
+    "static/media/ongle8.jpg": "/deerAlyx/static/media/ongle8.1effbad8737d08cb36a4.jpg",
+    "static/media/ongle2.jpg": "/deerAlyx/static/media/ongle2.c89de0f0dd20327f4530.jpg",
+    "static/media/ongle7.jpg": "/deerAlyx/static/media/ongle7.6b0ec3818a7591323655.jpg",
+    "static/media/ongle6.jpg": "/deerAlyx/static/media/ongle6.58d772f7f060cb0111a1.jpg",
     "index.html": "/deerAlyx/index.html",
-    "main.a4132cf1.css.map": "/deerAlyx/static/css/main.a4132cf1.css.map",
-    "main.1e7e6029.js.map": "/deerAlyx/static/js/main.1e7e6029.js.map"
+    "main.18e6496b.css.map": "/deerAlyx/static/css/main.18e6496b.css.map",
+    "main.d8273ed2.js.map": "/deerAlyx/static/js/main.d8273ed2.js.map"
   },
   "entrypoints": [
-    "static/css/main.a4132cf1.css",
-    "static/js/main.1e7e6029.js"
+    "static/css/main.18e6496b.css",
+    "static/js/main.d8273ed2.js"
   ]
 }
